@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { obj } from '../model2';
 
 @Component({
   selector: 'app-user-single',
@@ -6,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./user-single.component.css']
 })
 export class UserSingleComponent implements OnInit {
+
+
+  @Input() user!: obj;
+  @Input() index!: number;
+
 
   constructor() { }
 
