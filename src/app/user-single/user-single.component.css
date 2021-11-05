@@ -1,0 +1,16 @@
+#user-single {
+    display: flex;
+    width: 90%;
+    height: 50px;
+    background-color: #ffe6cc;
+    margin-top: 20px;
+    margin: 20px auto;
+    border-width: 1.5px;
+    border-color: #d79b00;
+    border-style: solid;
+}
+
+#user-single p {
+    
+margin: auto;    
+}
