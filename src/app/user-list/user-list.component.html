@@ -20,8 +20,12 @@
 -->
 
 
-        
+    <div id="ngifcontainer" *ngIf="users.length > 0; else allertNotUserFound">     
     <app-user-single *ngFor="let user of users; let i = index" [user]="user" [index]="i" (deleteCat)="delete(user)"></app-user-single>
     
-  
+    </div>
 </div>
+
+<ng-template #allertNotUserFound>
+    <p>Non sono presenti utenti</p>
+</ng-template>

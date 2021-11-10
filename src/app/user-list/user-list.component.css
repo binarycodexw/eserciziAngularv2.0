@@ -28,8 +28,10 @@
 }
 
 img {
+    
     height: 100px;
     margin-right: 20px;
+    
   }
 
 
@@ -42,3 +44,9 @@ p {
     font-weight: bold;
 }
 
+
+
+#ngifcontainer {
+    width: 100%;
+    
+}
