@@ -5,7 +5,14 @@
    
 </div>
 -->
-<div class="contenitoreInput">
+<div  class="contenitoreInput" [ngStyle]="{
+    'border-color':
+    user.role === 'admin'? 'red'
+    :user.role === 'manager'? 'black'
+    :user.role === 'staff'? 'purple'
+    :'blue'
+}">
+    
 
     <p>{{ index + 1 }}</p>
     
