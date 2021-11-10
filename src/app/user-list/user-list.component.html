@@ -21,8 +21,7 @@
 
 
         
-    <app-user-single *ngFor="let user of users; let i = index" [user]="user" [index]="i"></app-user-single>
-
+    <app-user-single *ngFor="let user of users; let i = index" [user]="user" [index]="i" (deleteCat)="delete(user)"></app-user-single>
     
   
 </div>

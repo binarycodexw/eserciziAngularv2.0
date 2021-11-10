@@ -41,3 +41,18 @@ p {
 .strongP {
     font-weight: bolder;
 }
+
+#user-profile-image {
+    height: 10vh;
+
+}
+
+button {
+
+    margin: auto;
+    height: 50px;
+    width: 100px;
+    
+    
+
+}
