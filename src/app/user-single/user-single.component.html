@@ -1,0 +1,29 @@
+
+
+<!-- 
+<div id="user-single"><p>user-single.component</p>
+   
+</div>
+-->
+<div  class="contenitoreInput" [ngStyle]="{
+    'border-color':
+    user.role === 'admin'? 'red'
+    :user.role === 'manager'? 'black'
+    :user.role === 'staff'? 'purple'
+    :'blue'
+}">
+    
+
+    <p>{{ index + 1 }}</p>
+    
+        <img id="user-profile-image" [src] ="user.profilePhotoUrl">
+    
+        <p class="strongP">{{ user.name }}</p>
+        <p class="strongP">{{ user.surname }}</p>
+    
+        <p>{{ user.age }}</p>
+        <p>{{ user.address.city }}</p>
+
+        <button (click)="deleteCat.emit(user)">Delete</button>
+    
+    </div>
