@@ -1,0 +1,61 @@
+/* 
+#user-single {
+    display: flex;
+    width: 90%;
+    height: 50px;
+    background-color: #ffe6cc;
+    margin-top: 20px;
+    margin: 20px auto;
+    border-width: 1.5px;
+    border-color: #d79b00;
+    border-style: solid;
+}
+#user-single p {
+    
+margin: auto;    
+}
+*/
+
+
+.contenitoreInput {
+    display: flex;
+    justify-content: center;
+    height: 15vh;
+    margin-top: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+    
+}
+
+
+.contenitoreInput img{
+    height: 15vh;
+    margin: auto;
+    
+}
+
+p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin: auto 7px;
+}
+
+.strongP {
+    font-weight: bolder;
+}
+
+#user-profile-image {
+    height: 10vh;
+
+}
+
+button {
+
+    margin: auto;
+    height: 40px;
+    width: 80px;
+    
+    
+
+}
