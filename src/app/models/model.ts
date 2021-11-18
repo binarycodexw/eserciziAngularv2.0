@@ -1,4 +1,4 @@
-export enum RoleType {
+export enum Role {
     staff = 'staff',
     student = 'student',
     manager = 'manager',
@@ -12,14 +12,14 @@ export enum RoleType {
   };
   
   
-  export interface obj {
+  export interface Profile {
     id: number,
     name: string,
     surname: string,
     age: number,
     dateOfBirth: string,
     address: AddressData,
-    role: RoleType,
+    role: Role,
     username: string,
     profilePhotoUrl: string,
     companies?: [CompanyData, CompanyData],

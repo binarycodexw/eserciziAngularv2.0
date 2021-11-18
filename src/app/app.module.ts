@@ -23,7 +23,8 @@ import { UserDetailsComponent } from './user-details/user-details.component';
     UserDetailComponent,
     UserListComponent,
     UserSingleComponent,
-    UserDetailsComponent
+    UserDetailsComponent,
+    
   ],
   imports: [
     BrowserModule

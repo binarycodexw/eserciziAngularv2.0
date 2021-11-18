@@ -1,15 +1,10 @@
 #user-detail {
-
     width: 19vw;
     height: 70vh;
     margin-top:  100px;
-    
     display:flex;
     flex-direction:column;
     justify-content: space-between;
-
-
-
     background-color: #fff2cc;
     border-width: 1.5px;
     border-color: #9bc38a;
