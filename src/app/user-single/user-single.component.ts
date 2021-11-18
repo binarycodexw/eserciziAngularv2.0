@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { obj } from '../model2';
+import { Profile } from '../model2';
 
 @Component({
   selector: 'app-user-single',
@@ -9,7 +9,7 @@ import { obj } from '../model2';
 export class UserSingleComponent implements OnInit {
 
 
-  @Input() user!: obj;
+  @Input() user!: Profile;
   @Input() index!: number;
 
 

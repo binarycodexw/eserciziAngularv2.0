@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Gender,Role, obj } from './../model2';
+import { Gender,Role, Profile } from './../model2';
 
 @Component({
   selector: 'app-user-list',
@@ -8,7 +8,7 @@ import { Gender,Role, obj } from './../model2';
 })
 export class UserListComponent implements OnInit {
 
-  users: obj[] = [
+  users: Profile[] = [
     {
         id: 3487,
         name: 'Mario',

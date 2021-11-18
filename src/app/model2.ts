@@ -10,7 +10,7 @@ export enum Gender {
     MALE = 'male'
 }
   
-export interface obj {
+export interface Profile {
     id: number,
     name: string,
     surname: string,
