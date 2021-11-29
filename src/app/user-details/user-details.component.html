@@ -12,8 +12,8 @@
     <li>Username: {{user.username}}</li>
     <li><img src={{user.profilePhotoUrl}}></li>
     <li>Gender: {{user.gender}}</li>
-    <li *ngIf="user.companies"><b>Company: {{user.companies}}</b></li>
-    <li *ngIf="user.companies">Description: {{user.companies}}</li>
-    <li *ngIf="user.companies"><b>Company: {{user.companies}}</b></li>
-    <li *ngIf="user.companies">Description: {{user.companies}}</li>
+    <li *ngIf="user.companies"><b>Company: {{user.companies[0].name}}</b></li>
+    <li *ngIf="user.companies">Description: {{user.companies[0].description}}</li>
+    <li *ngIf="user.companies"><b>Company: {{user.companies[1].name}}</b></li>
+    <li *ngIf="user.companies">Description: {{user.companies[1].description}}</li>
 </ul>

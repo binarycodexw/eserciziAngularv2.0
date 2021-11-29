@@ -22,7 +22,7 @@ export enum Role {
     role: Role,
     username: string,
     profilePhotoUrl: string,
-    companies?: [CompanyData, CompanyData],
+    companies?: CompanyData[],
     gender: Gender
   }
   

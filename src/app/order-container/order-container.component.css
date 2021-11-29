@@ -1,4 +1,4 @@
-#order-container {
+#order-container {   
     background-color: #f8cecc;
     border-width: 1.5px;
     border-color: #b85450;
@@ -9,8 +9,6 @@
     flex-direction: row;
     padding: 50px;
     justify-content: center;
-
-    
 }
 
 #contenitore-p-ordercontainer {
@@ -28,5 +26,4 @@ p{
     justify-content: center;
     font-weight: bold;
     font-size: 20px;
-
 }
