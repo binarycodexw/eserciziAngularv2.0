@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit ,NgModule } from '@angular/core';
 import { Profile, Role, Gender, } from '../models/model';
-
 @Component({
   selector: 'app-user-details',
   templateUrl: './user-details.component.html',
