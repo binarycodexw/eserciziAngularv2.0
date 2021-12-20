@@ -1,6 +1,12 @@
 <div id="user-list">
     <p>user-list.component</p>
-    <app-user-single></app-user-single>
-    <app-user-single></app-user-single>
-    <app-user-single></app-user-single>
+
+<div id="ngforcontainer" *ngFor="let user of users; let i = index">
+    <p>{{i+1}}</p>
+    <div><img src="{{user.profilePhotoUrl}}"></div>
+    <p class="bold-p">{{user.name}}</p>
+    <p class="bold-p">{{user.surname}}</p>
+    <p>{{user.age}}</p>
+    <p>{{user.address.city}}</p>
+</div>
 </div>
